@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.*;
 
 
@@ -45,6 +46,7 @@ public class PlayingWithInput {
             int numbTwo = second.nextInt();
             switch (operator) {
                 case 1:
+                    //System.out.println("Test");
                     System.out.println("The answer is " + addToNumbers(numbOne, numbTwo));
                     break;
                 case 2:
